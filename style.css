@@ -55,6 +55,11 @@
     background-color: rgb(56, 56, 56);
 }
 
+#nav li.bet-bg,
+#nav li.bet-bg ul li ul li {
+    background-color: rgb(116, 115, 115);
+}
+
 #nav li.bet-bg:hover,
 #nav li.bet-bg li:hover {
     background-color: rgb(31, 30, 30);
