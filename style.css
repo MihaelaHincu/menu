@@ -58,14 +58,18 @@
 }
 
 li.bet-bg,
-li.utg-bg,
+li.rfi2-bg,
 li.rfi-bg {
     width: 33%;
 }
 
-#nav li.utg-bg,
-#nav li.utg-bg li {
+#nav li.rfi2-bg,
+#nav li.rfi2-bg li {
     background-color: rgb(6, 6, 75);
+}
+
+#nav li.rfi2-bg ul li ul li {
+    background-color: rgb(56, 56, 131);
 }
 
 #nav li.utg-bg:hover,
@@ -84,7 +88,16 @@ li.rfi-bg {
 }
 
 
-
+img {
+    vertical-align: middle;
+    border-style: none;
+    z-index: 4;
+    position: absolute;
+    left: -122px;
+    /* right: 0; */
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /*--- Sublist Styles ---*/
