@@ -1,55 +1,111 @@
 #menu {
-    border:none;
-    border:0px;
-    margin:0px;
-    padding:0px;
+    border: none;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
     font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
-    font-size:18px;
-    font-weight:bold;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #nav {
-    height:35px;
-    list-style:none;
-    margin:0;
-    padding:0;
-    float:left;
-    text-align:center;
-    }
+    height: 35px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
 
 #nav li {
-    display:inline-block;
-    position:relative;
-    float:left;
-    background: #006633;
-    }
+    display: inline-block;
+    position: relative;
+    float: left;
+    /* background: gray; */
+}
 
 #nav li a {
-    display:inline-block;
-    width:200px;
-    line-height:35px;
-    padding:0;
-    text-decoration:none;
-    color:#ffffff;
-    }
-    
-#nav li li {float:left; #006633;}
-    
-#nav li li a {display:block;font-size:12px;}
-    
-#nav li:hover {background:#003f20;}
+    display: inline-block;
+    width: 200px;
+    line-height: 35px;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#nav li li {
+    float: left;
+
+}
+
+#nav li li a {
+    display: block;
+    font-size: 12px;
+}
+
+#nav li:hover {
+    background: #990033;
+}
+
+#nav li.bet-bg,
+#nav li.bet-bg li {
+    background-color: rgb(56, 56, 56);
+}
+
+#nav li.bet-bg:hover,
+#nav li.bet-bg li:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+
+#nav li.utg-bg,
+#nav li.utg-bg li {
+    background-color: rgb(6, 6, 75);
+}
+
+#nav li.utg-bg:hover,
+#nav li.utg-bg li:hover {
+    background-color: rgb(6, 6, 37);
+}
+
+#nav li.rfi-bg,
+#nav li.rfi-bg li {
+    background-color: #990033;
+}
+
+#nav li.rfi-bg:hover,
+#nav li.rfi-bg li:hover {
+    background-color: #5a0e27;
+}
+
+
+
+
 
 /*--- Sublist Styles ---*/
 #nav ul {
-    position:absolute;
-    padding:0px;
-    left:0;
-    display:none;
-    }
+    position: absolute;
+    padding: 0px;
+    left: 0;
+    display: none;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
 
 /*--- Hide Sub Sublists ---*/
-#nav li:hover ul ul {display:none;}
+#nav li:hover ul ul {
+    display: none;
+}
 
 /*--- Sublevel UL's display and position on hover ---*/
-#nav li:hover ul {display:block;} 
-#nav li li:hover ul {margin-left:200px; margin-top:-35px; display:block;}
+#nav li:hover ul {
+    display: block;
+}
+
+#nav li li:hover ul {
+    margin-left: 200px;
+    margin-top: -35px;
+    display: block;
+}
