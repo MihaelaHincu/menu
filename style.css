@@ -19,7 +19,7 @@
 
 #nav li {
     display: inline-block;
-    position: relative;
+    /* position: relative; */
     float: left;
     /* background: gray; */
 }
@@ -89,12 +89,10 @@ li.rfi-bg {
 
 
 img {
-    vertical-align: middle;
-    border-style: none;
     z-index: 4;
     position: absolute;
-    left: -122px;
-    /* right: 0; */
+    left: 10px;
+    top: 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -102,7 +100,7 @@ img {
 
 /*--- Sublist Styles ---*/
 #nav ul {
-    position: absolute;
+    /* position: absolute; */
     padding: 0px;
     left: 0;
     display: none;
